@@ -1,0 +1,82 @@
+#tqlo {
+	background-image: url("https://media.istockphoto.com/id/1203512641/photo/the-mockup-template-with-the-new-vinyl-disc-on-color-surface-music-album-cover-							design.jpg?b=1&s=170667a&w=0&k=20&c=UdlJXnhRwtL2APP1wUmbyU14DKC6_AcrMfNPpTY7Mh0=");
+	background-color: #cccccc;
+	max-width: 100%;
+}
+		
+nav{
+	background-color: #ddd;
+}
+		
+
+		
+#para {
+	text-align: center;
+	font-size:100px;
+	color: white;
+	padding: 227px 200px;
+
+}
+		
+p {
+	margin:10px;
+	font-family: 'MontserratAlternatesRegular';
+	font-weight: normal;
+	font-style: normal; 
+}
+		
+h2 {
+	margin:10px;
+}
+
+img {
+	margin:10px;
+	width:25%;
+  	height: auto;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 2px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #2196F3;
+  padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+.grid-item:hover{
+background-color: hsl(48, 100%, 50%);
+}
+
+
+p:not(#para)::first-letter {
+	font-size: 200%;
+	color: rgb(255, 204, 0);
+}
+
+a[href="https://www.youtube.com/"] {
+	background-color: white;
+}
+
+a[href="https://pitchfork.com"] {
+	background-color: white;
+}
+div ~ h2 {
+	background-color: #66ccff;
+}
+body{
+	padding-top: 60px;
+}
+
+	
+
+
+		
